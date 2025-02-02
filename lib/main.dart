@@ -8,6 +8,8 @@ void main() {
 }
 
 class AvatarSpeakerApp extends StatelessWidget {
+  const AvatarSpeakerApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,6 +23,8 @@ class AvatarSpeakerApp extends StatelessWidget {
 }
 
 class AvatarSpeakerHomePage extends StatefulWidget {
+  const AvatarSpeakerHomePage({super.key});
+
   @override
   _AvatarSpeakerHomePageState createState() => _AvatarSpeakerHomePageState();
 }
